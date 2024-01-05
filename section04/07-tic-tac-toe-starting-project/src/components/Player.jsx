@@ -8,7 +8,7 @@ export default function Player({ initialName, symbol }) {
 		setIsEditing((editing) => !editing);
 	}
 
-	function handleChange() {
+	function handleChange(event) {
 		setPlayerName();
 	}
 
